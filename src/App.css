@@ -11,6 +11,10 @@ main {
   width: 100vw;
 }
 
+p {
+  padding: 10px;
+}
+
 header {
   color: var(--orange);
 }
