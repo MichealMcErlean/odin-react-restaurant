@@ -1,0 +1,73 @@
+main {
+  font-family: 'schoolbellregular';
+  font-size: 1.8rem;
+  text-align: center;
+  background-color: black;
+  --orange:#FFA630;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: min-content min-content 1fr min-content;
+  height: 100vh;
+  width: 100vw;
+}
+
+header {
+  color: var(--orange);
+}
+
+footer {
+  color:aliceblue;
+  padding: 10px;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 150px 150px 150px;
+  gap: 20px;
+  justify-items: center;
+  justify-content: center;
+  align-items:center;
+  width: 100%;
+  padding-top: 20px;
+}
+
+nav a{
+  text-decoration: none;
+  background-color: #FFA630;
+  display: block;
+  width: 150px;
+  height: 30px;
+  font-size: 2.4rem;
+  border-bottom: 3px solid black;
+}
+
+nav a:link {
+  color: black;
+}
+
+nav a:visited {
+  color: black;
+}
+
+.inactive-link {
+  font-size: 2.2rem;
+}
+
+.active-link {
+  border-bottom: 3px solid var(--orange);
+}
+
+article {
+  background-image: linear-gradient(black, rgb(185, 4, 4), rgb(248, 162, 1), rgb(230, 230, 1), white);
+}
+
+#content {
+  background-color: var(--orange);
+  height: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#content img{
+  max-width: 400px;
+}
